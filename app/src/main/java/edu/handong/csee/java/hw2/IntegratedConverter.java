@@ -22,8 +22,8 @@ public class IntegratedConverter {
     private void run(String[] args) {
 
         fromValue = Double.parseDouble(args[0]);
-        String originalMeasure = Util.getUppercaseString(args[1]);
-        String targetMeasure = Util.getUppercaseString(args[2]);
+        String originalMeasure = Util2.getUppercaseString(args[1]);
+        String targetMeasure = Util2.getUppercaseString(args[2]);
         
 
         if(!targetMeasure.equals("ALL")) {
